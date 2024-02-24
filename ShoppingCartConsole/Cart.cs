@@ -49,7 +49,7 @@ namespace ShoppingCartConsole
             int tot_price =0;
             foreach(var item in cart)
                 tot_price += item.Product.pPrice * item.Quantity;
-            return tot_price;
+            return tot_price;  
         }
         public void DisplayCart()
         {
